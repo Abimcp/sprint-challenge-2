@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Halant&family=Montserrat&display=swap");
+
+:root {
+  --darkgray: #3a4854;
+  --offwhite: #c0cfde;
+  --mustard: #c38423;
+  --customnavy: #3e627c;
+}
+
+body,
+section {
+  background-color: var(--offwhite);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Halant", serif;
+}
+
+p,
+a {
+  font-family: "Montserrat", sans-serif;
+}
+
+.header-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: red;
+  background-color: rgba(247, 247, 247, 0.8);
+}
+
+nav {
+  z-index: 2;
+}
+
+.mw-50 {
+  max-width: 850px;
+}
+
+#timeline {
+  height: 10px;
+  width: 85vw;
+  background-color: var(--darkgray);
+  background-repeat: no-repeat;
+}
+
+/* media query */
+.rotate {
+  transform: skewY(14);
+}
